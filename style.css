@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    align-items: center;
+    margin: 0 auto;
+}
+
+p {
+    color: white;
+    background-color: gray;
+    margin: 0px 3px;
+    height: 3vh;
+    border-radius: 5px;
+    padding: 0px 7px;
+}
+
+main {
+    background-color: black;
+    width: 100vw;
+    height: 90vh;
+    margin-top:20px;
+}
+
+.row {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.row a {
+    width: 200px;
+    height: 200px;
+}
